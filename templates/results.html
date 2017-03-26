@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<title>Response Totals</title>
+</head>
+<body>
+<h1>Poll Results</h1>
+<ul>
+{% for e in counts %}
+  <li>{{ e }} {{ counts[e] }}</li>
+{% endfor %}
+</ul>
+<h1>Goodbye :)</h1>
+</body>
+</html>
+
+
