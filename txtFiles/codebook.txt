@@ -1,0 +1,1549 @@
+CODEBOOK
+
+
+SURVEY OVERVIEW
+Online survey of self-identified lesbian, gay, bisexual and transgender adults in the U.S., ages 18 or older. 
+
+Sample sizes:
+Full sample =1,197
+Gay men n=398
+Lesbians n=277
+Bisexuals n=479
+Transgender adults n=43
+
+
+95% Margin of error for full sample: +/-  4.1 percentage points
+
+
+
+
+
+
+
+
+
+QUESTIONNAIRE
+
+PROGRAMMING NOTES: 
+Notes to KN: Nothing in the contact info should reveal that this is LGBT-focused survey.
+
+
+NEWCASEID	Respondent identifier
+
+
+ASK ALL:
+Q.1	Generally, how would you say things are these days in your life? Would you say that you are…
+
+1	Very happy
+2	Pretty happy
+3	Not too happy
+
+
+ASK ALL:
+Q.2	All in all, do you think things in the nation are generally headed in the right direction, or do you feel things are off on the wrong track? 
+
+1	Right direction
+2	Wrong track
+
+
+ASK ALL:
+Q.3	What is your overall opinion of... [ITEM a ALWAYS FIRST, RANDOMIZE b-d]
+
+a.	Barack Obama 
+b.	The Democratic Party 
+c.	The Republican Party 
+d.	The Supreme Court 
+
+RESPONSE CATEGORIES:
+1	Very favorable
+2	Mostly favorable
+3	Mostly unfavorable
+4	Very unfavorable
+
+
+ASK ALL:
+Q.4	If you had to choose, would you rather have... [RANDOMIZE] 
+
+1	A smaller government, providing fewer services
+2	A bigger government, providing more services
+
+
+
+
+ASK ALL: 
+Q.5	Would you say you follow what's going on in government and public affairs...  
+
+1	Most of the time
+2	Some of the time
+3	Only now and then 
+4	Hardly at all
+
+
+ASK ALL:  
+Q.6	How much discrimination is there against each of these groups in our society today? [RANDOMIZE]? 
+
+a.	African Americans 
+b.	Hispanic Americans 
+c.	Gays and lesbians 
+d.	Women 
+e.	Muslim Americans 
+
+RESPONSE CATEGORIES:
+1	A lot 
+2	Some 
+3	Only a little
+4	None at all
+
+
+NO QUESTION 7
+
+
+ASK ALL: 
+Q.8	What do you think is more important… [RANDOMIZE] 
+
+1	To protect the right of Americans to own guns 
+2	To control gun ownership
+
+
+RANDOMIZE Q9a, Q9b, Q9c
+ASK ALL:
+Q.9a	Which statement comes closer to your own views — even if neither is exactly right?  
+
+1	Immigrants today strengthen our country because of their hard work and talents 
+2	Immigrants today are a burden on our country because they take our jobs, housing and health care 
+
+
+RANDOMIZE Q9a, Q9b, Q9c
+ASK ALL:
+Q.9b	Which statement comes closer to your own views — even if neither is exactly right?   
+
+1	Generally speaking, most people can be trusted 
+2	You can’t be too careful in dealing with people
+
+RANDOMIZE Q9a, Q9b, Q9c
+ASK ALL:
+Q.9c	Which statement comes closer to your own views — even if neither is exactly right?  
+
+1	Poor people today have it easy because they can get government benefits without doing anything in return 
+2	Poor people have hard lives because government benefits don't go far enough to help them live decently 
+
+
+ASK ALL:
+Q.10	Thinking about your own personal finances, how would you rate your own personal financial situation? Would you say you are in… 
+
+1	Excellent shape
+2	Good shape
+3	Only fair shape
+4	Poor shape
+
+
+ASK ALL:
+Q.11	Do you strongly favor, favor, oppose, or strongly oppose allowing gays and lesbians to marry legally? 
+
+1	Strongly favor
+2	Favor
+3	Oppose
+4	Strongly oppose
+
+
+ASK ALL:
+Q.12	Do you strongly favor, favor, oppose, or strongly oppose allowing gays and lesbians to adopt children? 
+
+1	Strongly favor
+2	Favor
+3	Oppose
+4	Strongly oppose
+
+
+NO QUESTIONS 13-15
+
+
+ASK ALL:
+OFTVOTE	How often would you say you vote … 
+
+1	Always
+2	Nearly always
+3	Part of the time
+4	Seldom
+ASK ALL:
+SNS	 Do you ever use Facebook, Twitter or other social networking sites? 
+
+1	Yes
+2	No
+
+
+ASK ALL:
+PARTY	In politics today, do you consider yourself a…?
+
+1	Republican 
+2	Democrat 
+3	Independent
+4	Something else, please specify (SPECIFY, one line box)
+
+
+ASK IF NOT REP OR DEM (PARTY=3,4, MISSING):
+PARTYLN	As of today do you lean more to… 
+
+1	The Republican Party
+2	The Democratic Party
+
+
+ASK ALL:
+IDEO		In general, would you describe your political views as... 
+
+1	Very conservative
+2	Conservative
+3	Moderate
+4	Liberal 
+5	Very liberal
+
+
+ASK ALL:
+SEX	Are you… 
+
+1	Male
+2	Female
+
+
+ASK ALL:
+MARITAL	Which best describes you… 
+
+1	Married
+2	Living with a partner, including a civil union
+3	Divorced
+4	Separated
+5	Widowed
+6	Never been married
+
+
+
+ASK IF NOT MARRIED OR LIVING WITH PARTNER (MARITAL=3-6, MISSING):
+Q.16	Are you currently in a committed relationship or not? 
+
+1	Yes
+2	No
+
+
+ASK ALL:
+Q.17	Here is a list of reasons why some people decide to get married. For each one, please indicate how important a reason you think it is to get married. [RANDOMIZE] 
+
+a.	Financial stability
+Companionship
+Love
+Having children
+Making a lifelong commitment
+f.	For legal rights and benefits 
+g.	Having a relationship recognized in a religious ceremony 
+
+RESPONSE CATEGORIES:
+1	Very important reason
+2	Somewhat important reason
+3	Not an important reason
+
+
+NO QUESTIONS 18-23
+
+
+ASK ALL:
+Q.24	Do you consider yourself to be…
+
+1	Heterosexual or straight
+2	Gay
+3	Lesbian
+4	Bisexual
+
+
+ASK ALL:
+Q.25	Do you consider yourself to be transgender?
+
+1	Yes
+2	No
+
+
+
+
+ASK IF TRANSGENDER (Q25=1):
+Q.26	Are you…
+
+1	Transgender, male to female
+2	Transgender, female to male
+3	Transgender, gender non-conforming
+4	No, not transgender
+
+RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+
+IF NOT LGBT [Q24=1, MISSING AND (Q25=2, MISSING)]
+R.1	In an earlier survey, you identified as [INSERT SEXUAL/GENDER ID FROM SAMPLE; IF LGB AND T INCLUDE BOTH, e.g. gay and transgender] do you still consider yourself to be [INSERT SEXUAL/GENDER ID FROM SAMPLE; IF LGB AND T INCLUDE BOTH, e.g. gay or transgender], or not?
+
+	1	Yes, [INSERT SEXUAL ORIENTATION: gay, lesbian, bisexual IF G,L,B IN SAMPLE]
+	2	Yes, [INSERT: transgender IF T IN SAMPLE]
+	3	Yes [INSERT: both IF G/L/B AND T IN SAMPLE]
+	4	No
+
+RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+
+ASK IF GAY OR LESBIAN OR BISEXUAL AND TRANSGENDER [(Q.24=2,3,4) AND (Q.26=1,2,3, MISSING)] OR R.1=3]:
+R.2	For the purposes of referring to you in the rest of this survey, which term would you prefer to use? 
+1	[INSERT RESPONSE FROM Q.24 OR SAMPLE SEXUAL ORIENTATION (L,G,B)]
+2	Transgender
+
+
+TERMINATE AT THIS POINT IF NOT LGBT [(R1=4, MISSING)] OR [Q24=1, MISSING AND Q25=1 AND Q26=4]
+
+
+
+
+LGBT	Summary of LGBT status
+
+1	Lesbian
+2	Gay
+3	Bisexual
+4	Transgender
+5	Non-LGBT
+
+
+SYNTAX USED TO CREATE LGBT VARIABLE: 
+
+(1) Lesbian 
+IF Q24=3 AND (Q25=2, MISSING OR Q26=4)
+IF Q24=3 AND R2=1
+IF SAMPLE ID=LESBIAN AND R2=1
+IF SAMPLE ID=LESBIAN AND R1=1 
+
+(2) Gay
+IF Q24=2 AND (Q25=2, MISSING OR Q26=4)
+IF Q24=2 AND R2=1
+IF SAMPLE ID=GAY AND R2=1 
+IF SAMPLE ID=GAY AND R1=1 
+
+(3) Bisexual 
+IF Q24=4 AND (Q25=2, MISSING OR Q26=4)
+IF Q24=4 AND R2=1
+IF SAMPLE ID=BISEXUAL AND R2=1
+IF SAMPLE ID=BISEXUAL AND R1=1 
+
+(4) Transgender 
+IF Q26=1-3, MISSING AND Q24=1, MISSING
+IF Q26=1-3, MISSING AND R2=2
+IF SAMPLE ID=TRANSGENDER AND R2=2
+IF SAMPLE ID=TRANSGENDER AND R1=2 
+IF Q24=1 AND Q25=1 AND Q26=MISSING
+
+
+THROUGHOUT THE REMAINDER OF THE SURVEY, INSERT THESE TERMS WHEN PROMPTED WITH ‘INSERT ID’
+
+
+
+
+ASK ALL:
+Q.27	Which best describes you? Are you … [IN ORDER, IN REVERSE ORDER FOR RANDOM HALF OF SAMPLE]
+
+1	Only or mostly attracted to males 
+2	Somewhat more attracted to males than females
+3	About equally attracted to males and females
+4	Somewhat more attracted to females than males
+5	Only or mostly attracted to females 
+
+
+NO QUESTIONS 28-30
+
+
+The next part of the survey focuses on the experiences and opinions of lesbian, gay, bisexual, and transgender (LGBT) people. We appreciate your willingness to take part in this study. This study is being conducted by the Pew Research Center, a nonpartisan, nonprofit research organization which does not take policy positions. All responses will be kept strictly confidential.
+
+ASK ALL:
+Q.31	How important, if at all, is being [INSERT ID] to your overall identity? Would you say it is …
+
+1	Extremely important
+2	Very important
+3	Somewhat important
+4	Not too important
+5	Not at all important
+
+
+ASK ALL:
+Q.32	Thinking about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity], do you think of it as mainly something positive in your life today, mainly something negative in your life today, or doesn’t it make much of a difference either way?
+
+1	Mainly something positive
+2	Mainly something negative 
+3	Doesn’t make much of a difference either way
+
+
+
+
+ASK IF Q32=1,2:
+Q.32a	In your own words, why is your [INSERT FOR LGB: sexual orientation, FOR T: gender identity] [IF Q32=1 something positive, IF Q32=2 something negative] in your life today?
+
+	OPEN-END; TEXT BOX About 3 lines
+
+Q32A RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+
+Q32A_CODES	Did respondent provide an answer to Q32A?
+-1	Refused  
+
+
+Q32A_POSOE1-Q32A_POSOE4 Recoded version of Q32A--positive responses
+-1	No answer  
+1	Defines me/proud of/happy with who I am/Born this way/God made me this way  
+2	Has helped me find love/form relationships/good for love life  
+3	Feeling of community/friendships  
+4	Makes me a stronger person/Role model for other LGBT  
+5	Gives me empathy for other minority groups/Makes me focus on justice & equality  
+6	Family/friends/society accept me for who I am  
+7	Makes me different/unique  
+8	Other
+
+
+Q32A_NEGOE1_Q32A_NEGOE3 Recoded version of Q32A--negative responses
+-1	No answer  
+1	Discrimination/Lack of social acceptance or understanding (by society, family, friends)  
+2	Lack of legal rights (marital, adoption, etc.)  
+3	Personal struggles (finding mate, living openly, accepting sexual orientation/gender identity, etc.)  
+4	Other
+
+
+
+
+ASK ALL:
+Q.33	As a [INSERT ID] [IF INSERTID=2 AND SEX=2: woman; IF INSERTID=2 AND SEX=1: man; IF INSERTID=4: person; IF INSERTID=1: woman], how much do you feel you share common concerns and identity with [RANDOMIZE] 
+
+ASK IF INSERT ID=3,4 OR (INSERT ID=2 AND SEX=1, MISSING) 
+a.	Lesbians
+ASK IF INSERT ID=1,3,4 OR (INSERT ID=2 AND SEX=2, MISSING)
+b.	Gay men
+ASK IF INSERT ID=1,2,4
+c.	Bisexuals
+ASK IF INSERT ID=1,2,3
+d.	Transgender people
+
+RESPONSE CATEGORIES:
+1	A lot
+2	Some
+3	Only a little
+4	Not at all
+
+
+NO QUESTIONS 34-38
+
+The next questions are about your own personal experience in becoming aware of your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]
+
+ASK LGB:
+Q.39	How old were you when you first felt you might be something other than straight or heterosexual?
+
+	(TEXT BOX ACCEPTING NUMBERS 0-99 WITH “years old”)
+
+
+ASK T:
+Q.40	How old were you when you first felt your gender was different from your birth sex? 
+
+	(TEXT BOX ACCEPTING NUMBERS 0-99 WITH “years old”)
+
+
+ASK ALL:
+Q.41	How old were you when you knew for sure that you were [INSERT ID], or are you still not sure? 
+
+(TEXT BOX ACCEPTING NUMBERS 0-99 WITH “years old”)
+ (Option for “Still not sure”)
+
+
+
+
+ASK ALL:
+Q.42	How old were you when you first told a close friend or family member that you were, or might be, [INSERT ID], or hasn’t this come up?
+
+(TEXT BOX ACCEPTING NUMBERS 0-99 WITH “years”)
+	(Option for “Hasn’t come up”)
+
+
+NO QUESTION 43
+
+
+We have a few questions about the process of telling your family members and close friends about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity], including who you have and have not told, and why. 
+
+
+RANDOMIZE Q.44 BLOCK AND Q45 BLOCK 
+ASK ALL:
+Q.44	Did you ever tell your mother about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]?
+
+1	Yes, told my mother
+2	No, did not tell my mother
+3	Not applicable
+
+
+ASK IF NO (Q44=2):
+Q44new	Why didn’t you tell your mother?
+
+OPEN-END; TEXT BOX About 4 lines
+
+Q44NEW RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q44NEW_OE1-Q44NEW_OE3 Recoded version of Q44NEW
+1	Never told her, but she just knew/someone else told her  
+2	Not important/Never came up/Don’t discuss this topic with parents/None of their business  
+3	Wouldn’t have been accepting or understood/Worried about how it would affect relationship  
+4	Didn’t want to hurt/stress/disappoint her  
+5	No need unless same-sex partner  
+6	Not ready/Guilty/Not comfortable/Timing wasn’t right  
+7	Not close with her/She lives far away  
+8	Father/other family members asked me not to tell her  
+9	No need to (unspecified)  
+98	Some other reason (including unclear responses)  
+99	No answer
+
+
+
+ASK IF NOT APPLICABLE (Q44=3):
+Q.44a	Is this because …
+
+1	Your mother was not a part of your life
+2	Your mother passed away before you could tell her
+3	Some other reason (SPECIFY, one line box)
+
+Q44A RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q44ANEW	Recoded version OF Q44A
+
+-1	Refused
+1	Your mother was not a part of your life/Your mother passed away before you could tell her
+3	Some other reason 
+
+
+Q44COMPNEW Complete Q44
+
+Yes told mom
+Did not tell mom, but could have
+N/A Mom not part of life, or sick/died before could tell her
+5	Refused or N/A with no explanation 
+
+
+ASK IF YES (Q44=1):
+Q.44b 	Which best describes telling your mother?
+
+1	It was difficult to tell her
+2	It was not difficult to tell her
+
+
+ASK IF YES (Q44=1):
+Q.44c	After you told her, did your relationship with your mother overall …
+
+1	Grow stronger
+2	Grow weaker
+3	Not change
+
+
+RANDOMIZE Q.44 BLOCK AND Q45 BLOCK 
+ASK ALL:
+Q.45	Did you ever tell your father about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]?
+
+1	Yes, told my father
+2	No, did not tell my father
+3	Not applicable
+
+
+
+
+ASK IF NO (Q45=2):
+Q45new	Why didn’t you tell your father?
+
+OPEN-END; TEXT BOX About 4 lines
+
+Q45NEW RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q45NEW_OE1-Q45NEW_OE3 Recoded version of Q45NEW
+1	Never told him, but he just knew/someone else told him  
+2	Not important/Never came up/Don't discuss this topic with parents/None of their business  
+3	Wouldn't have been accepting or understood/Worried about how it would affect relationship  
+4	Didn't want to hurt/stress/disappoint him  
+5	No need unless same-sex partner  
+6	Not ready/Guilty/Not comfortable/Timing wasn’t right  
+7	Not close with him/He lives far away  
+8	Mother/other family members asked me not to tell him  
+9	No need to (unspecified)  
+98	Some other reason (including unclear responses)  
+99	No answer
+
+
+ASK IF NOT APPLICABLE (Q45=3):
+Q.45a	Is this because …
+
+1	Your father was not a part of your life
+2	Your father passed away before you could tell him
+3	Some other reason (SPECIFY, one line box)
+
+Q45A RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q45ANEW	Recoded version OF Q45A
+
+-1	Refused
+1	Your father was not a part of your life/Your father passed away before you could tell him
+3	Some other reason 
+
+
+Q45COMPNEW Complete Q45
+
+1	Yes told dad
+2	Did not tell dad, but could have
+3	N/A Dad not part of life, or sick/died before could tell him
+5	Refused or N/A with no explanation 
+
+
+
+
+ASK IF YES (Q45=1):
+Q.45b 	Which best describes telling your father?
+
+1	It was difficult to tell him
+2	It was not difficult to tell him
+
+
+ASK IF YES (Q45=1):
+Q.45c	After you told him, did your relationship with your father overall …
+
+1	Grow stronger
+2	Grow weaker
+3	Not change
+
+
+RANDOMIZE Q.46 AND Q47 
+ASK ALL:
+Q.46	Did you ever tell any sisters about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]?
+
+1	Yes, told one or more sisters
+2	No, did not tell any sister(s)
+3	Not applicable
+
+
+ASK IF NOT APPLICABLE (Q46=3):
+Q.46a	Is this because …
+
+1	You don’t have any sisters
+2	Your sister(s) were not part of your life or passed away before you could tell her(them)
+3	Some other reason (SPECIFY, one line box)
+
+Q46A RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q46ANEW	Recoded version OF Q46A
+
+-1	Refused
+1	Don’t have sisters, or sisters not part of life 
+3	Some other reason 
+
+
+Q46COMPNEW Complete Q46
+
+1	Yes told sister
+2	Did not tell sister, but could have
+3	N/A no sisters, or not part of life or sick/died before could tell
+5	Refused or N/A with no explanation 
+
+
+
+
+RANDOMIZE Q.46 AND Q47 
+ASK ALL:
+Q.47	Did you ever tell any brothers about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]?
+
+1	Yes, told one or more brothers
+2	No, did not tell any brothers(s)
+3	Not applicable
+
+
+ASK IF NOT APPLICABLE (Q47=3):
+Q.47a	Is this because …
+
+1	You don’t have any brothers
+2	Your brother(s) were not part of your life or passed away before you could tell him(them)
+3	Some other reason (SPECIFY, one line box)
+
+Q47A RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q47ANEW	Recoded version OF Q47A
+
+-1	Refused
+1	Don’t have brothers, or brothers not part of life 
+3	Some other reason 
+
+
+Q47COMPNEW Complete Q47
+
+1	Yes told brother
+2	Did not tell brother, but could have
+3	N/A no brothers, or not part of life or sick/died before could tell
+5	Refused or N/A with no explanation 
+
+
+ASK ALL:
+Q.48	Have you told any close friends about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]?
+
+1	Yes, told one or more close friends
+2	No, did not 
+
+
+ASK ALL:
+Q.49	All in all, thinking about the important people in your life, how many are aware that you are [INSERT ID]?
+
+1	All or most of them
+2	Some of them
+3	Only a few of them
+4	None of them
+ASK IF TOLD FAMILY/FRIENDS ABOUT SEXUAL ORIENTATION/GENDER IDENTITY (Q.44=1 OR Q.45=1 OR Q.46=1 OR Q.47=1 OR Q.48=1):
+Q.50	We are interested in hearing more about your experiences telling the people in your life about your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]. In your own words, describe how this process has been for you personally. 
+
+	OPEN-END; TEXT BOX About 4 lines
+
+Q50 RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+
+NO QUESTION 51
+
+
+Now we have a few questions about society.
+ASK ALL:
+Q.52	What do you think are the most important problems facing lesbian, gay, bisexual, and transgender people today? 
+
+OPEN-END; TEXT BOX About 5 lines
+
+Q52 RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q52OE_1-Q52OE_3	Recoded version OF Q52
+
+1	Lack of general equality/discrimination/prejudice/bigotry/stigma 
+2	Legal rights (general) 
+3	Right to marry
+4	Ignorance/misunderstanding/stupidity/fear/stereotyping  
+5	Lack of acceptance 
+6	Violence/bullying/hate crimes
+7	Religious opposition/the religious right 
+8	Unprotected sex/STDs/AIDS 
+9	Republicans/conservatives 
+10	The same issues as other people  
+11	Issues specific to transgendered people  
+12	Self-esteem/self-acceptance/problems of own making  
+97	Other  
+98	Nonsubstantive 
+99	DK/No answer
+
+
+ASK ALL:
+Q.53	Overall, how much social acceptance, if any, of gay, lesbian, bisexual and transgender people do you think there is in this country today? 
+
+1	A lot
+2	Some
+3	Only a little
+4	None at all
+
+
+ASK ALL:
+Q.54	Compared with 10 years ago, would you say the level of social acceptance of gay, lesbian, bisexual and transgender people in the country today is …
+
+1	A lot more accepting
+2	A little more accepting
+3	No different
+4	A little less accepting
+5	A lot less accepting 
+
+
+ASK ALL:
+Q.55	Looking ahead 10 years from now, do you think the level of social acceptance of gay, lesbian, bisexual and transgender people in this country will be…
+
+1	A lot more accepting
+2	A little more accepting
+3	No different
+4	A little less accepting
+5	A lot less accepting 
+
+
+ASK ALL:
+Q.56	Do you feel each of the following is generally friendly, neutral or unfriendly toward lesbian, gay, bisexual, and transgender people? [RANDOMIZE IN AND WITHIN BLOCKS: a-c, d-g] 
+
+a.	The Democratic Party	
+b.	The Republican Party
+c.	The Obama administration
+d.	The entertainment industry
+e.	The news media
+f.	Professional sports leagues 
+g.	The U.S. military
+
+RESPONSE CATEGORIES:
+1	Friendly
+2	Neutral
+3	Unfriendly
+
+
+NO QUESTIONS 57-62
+
+
+
+
+ASK ALL:
+Q.63	How much, if at all, does each of the following help to make society more accepting of lesbian, gay, bisexual, and transgender (LGBT) people in this country? [RANDOMIZE]
+
+a.	People knowing someone who is LGBT
+b.	LGBT characters in TV shows and movies
+c.	Well-known public figures who are open about being LGBT
+d.	LGBT people raising families
+e.	Open support for LGBT issues from public figures who are not LGBT
+f.	LGBT pride events
+
+RESPONSE CATEGORIES:
+1	Helps a lot
+2	Helps a little
+3	Does not help
+
+
+ASK ALL:
+Q.64	Which public figures, if any, at the national level do you see as important in advancing the rights of LGBT people?
+
+OPEN-END; TEXT BOX About 3 lines
+
+Q64 RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+Q64OE_1-Q64OE_3	Recoded version of Q64
+
+1	Adam Lambert 
+2	Anderson Cooper  
+3	Andrew Cuomo  
+4	Angelina Jolie  
+5	Annise Parker  
+6	Sports figures (general)  
+7	Barack Obama  
+8	Barbara Boxer  
+9	Barney Frank 
+10	Ben Cohen 
+11	Bernie Sanders  
+12	Bette Midler 
+13	Beyonce  
+14	Bill Gates  
+15	Brad Pitt  
+16	Brittney Griner  
+17	Businesspeople (general)  
+18	Chad Griffin 
+19	Charles Schumer  
+20	Chaz Bono  
+21	Cher  
+22	Chris Colfer  
+23	Chris Hughes  
+24	Chris Kluwe  
+25	Christine Quinn  
+26	Religious figures/church leaders (general)  
+27	Colin Powell 
+28	Coretta Scott King 
+29	Cyndi Lauper  
+30	Dan Choi  
+31	Dan Savage  
+32	Darren Criss  
+33	David Geffen  
+34	David Letterman  
+35	Dennis Kucinich  
+36	Dianne Feinstein  
+37	Dick Cheney  
+38	Domonique Foxworth 
+39	Edie Windsor/litigants  
+40	Elizabeth Taylor  
+41	Elizabeth Warren 
+42	Ellen DeGeneres  
+43	Elton John  
+44	Actors and actresses (general)  
+45	Frank Ocean  
+46	Gavin Newsom  
+47	Gay male choruses  
+48	George Takei  
+49	Harvey Milk  
+50	Heidi Heitkamp  
+51	Helen Hunt  
+52	Hillary Clinton  
+53	Ian McKellan  
+54	James Franco  
+55	Jay-Z 
+56	Jeff Merkley  
+57	Jillian Michaels  
+58	Jim Parsons  
+59	Jodie Foster  
+60	Joe Biden  
+61	John Lewis  
+62	Jon Stewart  
+63	Joy Behar  
+64	Kathy Griffin  
+65	Katy Perry  
+66	Kirk Cameron  
+67	Kyrsten Sinema  
+68	Lady Gaga  
+70	Madonna  
+71	Magic Johnson 
+72	Magic Johnson III  
+73	Marci Bowers  
+74	Margaret Cho  
+75	Mark Takano  
+76	Matt Bomer  
+77	Melissa Etheridge  
+78	Michael Bloomberg  
+79	Michael Jordan  
+80	Michelle Obama  
+81	Miley Cyrus  
+82	Military (general)  
+83	Nancy Pelosi  
+84	Neil Patrick Harris  
+85	Oprah Winfrey  
+86	Patrick Guerriero  
+87	Perez Hilton  
+89	Pink  
+90	Political figures (general)  
+91	Pope Francis  
+92	Portia de Rossi  
+93	Rachel Maddow  
+95	Ricky Martin  
+96	Rob Portman 
+97	Rob Reiner  
+98	Robin Roberts  
+99	Roseanne Barr  
+100	Rosie ODonnell  
+101	RuPaul  
+102	Russell Simmons  
+103	Ryan Murphy  
+104	Sally Ride  
+105	Sam Champion  
+106	Sean Eldridge  
+107	Senators/Congresspeople/Legislature (general)  
+108	Stephen Colbert  
+109	Steven Sabados  
+110	Supreme Court  
+111	Suze Orman  
+112	T.R. Knight 
+113	Tammy Baldwin  
+114	Tammy Duckworth  
+115	Tim Cook  
+116	Tim Gunn 
+117	Tom Cruise  
+118	Wanda Sykes  
+119	Democrats/liberals (general)
+120	Republicans/conservatives (general)
+122	Entertainment industry/celebrities(general) 
+123	Media figures/television personalities (general)  
+124	Musicians (general)  
+125	Lawyers at Supreme Court  
+126	Judges/courts (general) 
+127	Obama administration/Executive Branch (general)  
+129	Gene Robinson  
+130	Bill Clinton  
+131	Andrew Rannells  
+132	Wendy Williams  
+133	Dolly Parton 
+134	Lance Bass 
+135	Katie Couric  
+136	K.D. Lang  
+137	Kesha  
+138	Billy Bean 
+139	John Barrowman  
+140	Governors (general)  
+141	Barbra Streisand  
+142	Civic leaders (general)  
+143	Andre Carson  
+144	John Boehner  
+997	No one specific  
+998	Don’t know  
+999	Refused to answer
+
+
+ASK ALL:  
+Q.65	Thinking about the level of social acceptance of different groups of LGBT people in the country today, how much social acceptance, if any, do you think there is of each of the following? [RANDOMIZE]? 
+
+a.	Gay men
+b.	Lesbian women
+c.	Bisexual men
+d.	Bisexual women
+e.	Transgender people
+
+RESPONSE CATEGORIES:
+1	A lot 
+2	Some 
+3	Only a little
+4	None at all
+
+
+
+
+ASK ALL:
+Q.66	Thinking about some different religions and religious groups, do you feel each of the following is generally friendly, neutral or unfriendly toward lesbian, gay, bisexual, and transgender people? [RANDOMIZE; ITEM f. SHOULD ALWAYS COME AFTER ITEM a. BUT DOESN’T NEED TO FOLLOW IMMEDIATELY AFTER] 
+
+a.	Evangelical churches
+b.	The Catholic Church
+c.	The Jewish religion
+d.	The Muslim religion
+e.	The Mormon Church
+f.	Non-Evangelical Protestant churches
+
+RESPONSE CATEGORIES:
+1	Friendly
+2	Neutral
+3	Unfriendly
+
+
+ASK ALL:
+Q.67	And thinking about your own religious beliefs, do you personally feel that there is a conflict between your religious beliefs and your [INSERT FOR LGB: sexual orientation, FOR T: gender identity]?
+
+1	Yes, conflict
+2	No, no conflict
+
+
+ASK IF YES, CONFLICT (Q67=1):
+Q.68	How much conflict do you feel there is?
+
+	1	A lot of conflict
+	2	A little conflict
+
+
+NO QUESTION 69 
+
+
+ASK ALL:
+Q.70	Is the level of social acceptance of lesbian, gay, bisexual, and transgender people in the city or town where you live a major reason why you live there, a minor reason why you live there, or not a reason why you live there? 
+
+1	Major reason 
+2	Minor reason
+3	Not a reason
+
+
+
+
+ASK ALL:
+Q.71	Overall, how much social acceptance of lesbian, gay, bisexual and transgender people do you think there is in the city or town where you live? 
+1	A lot
+2	Some
+3	Only a little
+4	None at all 
+
+
+ASK ALL: 
+Q.72	Would you say you live in a neighborhood known for being an LGBT neighborhood? 
+
+1	Yes
+2	No
+
+
+ASK IF NO (Q72=2):
+Q.73	Have you ever lived in a neighborhood known for being an LGBT neighborhood? 
+
+1	Yes
+2	No
+
+
+ASK ALL:
+Q.74	How many of your close friends are lesbian, gay, bisexual or transgender? 
+
+1	All or most of them
+2	Some of them
+3	Only a few of them
+4	None of them
+
+
+NO QUESTIONS 75-79
+
+
+
+
+ASK ALL:
+Q.80	Thinking about some policy issues, do you think each of the following should be a top priority, a very important but not top priority, a somewhat important priority, or not a priority at all? [RANDOMIZE ITEMS]
+
+a.	Equal employment rights for LGBT people
+b.	Legally sanctioned marriages for same-sex couples
+c.	Adoption rights for same-sex couples
+d.	More efforts aimed at prevention and treatment of HIV and AIDS 
+e.	Legally sanctioned civil unions or domestic partnerships for same-sex couples
+f.	Support for organizations that provide services to LGBT youth 
+g.	Coverage of transgender health issues by health insurance 
+
+RESPONSE OPTIONS
+1	Top priority
+2	Very important but not top priority
+3	Somewhat important priority
+4	Not a priority at all
+
+
+NO QUESTION 81
+
+
+ASK ALL:
+Q.82	For each of the following, please indicate whether or not it has happened to you because you are, or were perceived to be, [INSERT ID]? [RANDOMIZE ITEMS]
+
+a.	Been threatened or physically attacked 
+b.	Been subject to slurs or jokes 
+c.	Received poor service in restaurants, hotels or other places of business
+d.	Been made to feel unwelcome at a place of worship or religious organization
+e.	Been treated unfairly by an employer in hiring, pay, or promotion
+f.	Been rejected by a friend or family member 
+
+RESPONSE OPTIONS
+1	Yes, happened in past 12 months
+2	Yes, happened, but not in past 12 months
+3	Never happened
+
+
+
+
+ASK ALL: 
+Q.83	Here are a few activities some people do and others do not. Please indicate whether or not you have done this each of the following: [KEEP IN ORDER]. 
+
+a.	Been a member of an LGBT organization
+b.	Bought a certain product or service because the company that provides it is supportive of LGBT rights 
+c.	Decided NOT to buy a certain product or service because the company that provides it is not supportive of LGBT rights
+d.	Attended a rally or march in support of LGBT rights 
+e.	Attended an LGBT pride event
+f.	Donated money to politicians or political organizations because they are supportive of LGBT rights
+
+RESPONSE CATEGORIES
+1	Yes, in past 12 months
+2	Yes, but not in past 12 months
+3	No, never done this
+
+
+ASK ALL:
+Q.84	Have you met new lesbian, gay, bisexual or transgender friends online or through a social networking site, or have you never done this?
+
+Yes, in past 12 months
+Yes, but not in past 12 months
+No, never done this
+
+
+ASK ALL:
+Q.85	Do you regularly discuss LGBT issues online or on a social networking site or not?
+
+	1	Yes, regularly discuss LGBT issues online
+	2	No, do not regularly discuss LGBT issues online
+
+
+ASK ALL SNS USERS (SNS=1):
+	Q.85A Have you ever revealed your [INSERT FOR LGB: sexual orientation, FOR T: gender identity] or referred to being [INSERT ID] on a social networking site? 
+
+-1	Refused
+1	Yes
+2	No
+
+
+ASK IF NOT CURRENTLY MARRIED (MARITAL=2,3,5,6):
+Q.86	If you could, would you like to get married [IF MARITAL=3,5: again] someday or not?
+
+1	Yes
+2	No
+3	Not sure
+ASK IF MARRIED OR LIVING WITH A PARTNER (MARITAL=1,2):
+Q.87	Earlier you said you are [IF MARRIED: married, IF LWP: living with a partner, ]. Is your [IF MARRIED: spouse, IF LWP: partner]… :
+
+1	Male
+2	Female
+3	Trans male
+4	Trans female
+5	Gender non-conforming
+
+
+ASK IF IN COMMITTED RELATIONSHIP, BUT NOT MARRIED/LWP (Q16=1):
+Q.88	Earlier you said you are in a committed relationship. Is that relationship with someone who is…
+
+1	Male
+2	Female
+3	Trans male
+4	Trans female
+5	Gender non-conforming
+
+
+ASK IF MARRIED (MARITAL=1):
+Q.89	Which best describes your current situation with your spouse?
+
+1	Legally married under state law
+2	Have a legal civil union or domestic partnership, but not legally married
+3	Neither
+
+
+ASK IF LIVING WITH PARTNER (MARITAL=2):
+Q.90	And do you and your partner have a legal civil union or domestic partnership?
+
+1	Yes
+2	No
+
+
+NO QUESTION 91
+
+
+ASK ALL:
+Q.92	At any point in your life have you been a parent or guardian of a child?
+
+1	Yes
+2	No
+
+
+
+
+ASK IF EVER BEEN PARENT (Q92=1)
+Q.93	Do you have any children under age 18? 
+
+1	Yes
+2	No
+
+
+ASK IF MARRIED OR LWP AND DOES NOT HAVE OWN CHILD IN HOME [MARITAL=1,2 AND (Q92=2, MISSING OR Q93=2, MISSING)]
+Q.94	Does your [IF MARITAL=1: spouse; IF MARITAL=2: partner] have any children under age 18? 
+
+1	Yes
+2	No
+
+
+IF RESPONDENT OR SPOUSE/PARTNER HAS CHILDREN UNDER 18, ASK (Q93=1 OR Q94=1):
+Q.95	Do any of those children under age 18 live in your household or not?
+
+	1	Yes
+	2	No
+
+
+ASK IF NO CHILDREN AND UNDER AGE 60 (Q92=2, MISSING AND AGE=18-59): 
+Q.96	Would you yourself like to have children someday or not?
+
+1	Yes
+2	No
+3	Not sure
+
+
+NO QUESTION 97
+
+
+ASK ALL:
+EMPLOY2	Which best describes your current situation? 
+
+1	Employed full-time
+2	Employed part-time
+3	Retired
+4	Not employed for pay
+
+
+ASK IF EMPLOYED (EMPLOY2=1,2):
+Q.98	In general, how accepting would you say your workplace is of [INSERT ID] employees? 
+
+Very accepting
+Somewhat accepting
+Not too accepting
+Not at all accepting
+ASK IF EMPLOYED (EMPLOY2=1,2):
+Q.99	Thinking about the people you work with closely at your job, how many of these people are aware that you are [INSERT ID]?
+
+1	All or most of them
+2	Some of them
+3	Only a few them
+4	None of them
+
+
+NO QUESTIONS 100-101
+
+
+RANDOMIZE Q102a, Q102b, Q102c, Q102d
+ASK ALL:
+Q.102a	Which statement comes closer to your own views — even if neither is exactly right?    
+
+ 	1	The push for same-sex marriage has taken too much focus away from other issues 
+important to LGBT people
+	2	Same-sex marriage should be the top priority for LGBT people right now, 
+even if this means some other issues do not get much attention 
+
+
+RANDOMIZE Q102a, Q102b, Q102c, Q102d
+ASK ALL:
+Q.102b	Which statement comes closer to your own views — even if neither is exactly right?    
+
+1	The best way to achieve equality is for LGBT people to be a part of mainstream culture and institutions like marriage
+2	LGBT people should be able to achieve equality while still maintaining their own distinct culture and way of life
+
+
+RANDOMIZE Q102a, Q102b, Q102c, Q102d
+ASK ALL:
+Q.102c	Which statement comes closer to your own views — even if neither is exactly right?    
+
+	1	I don’t want to be seen as different because of my [INSERT FOR LGB: sexual 
+orientation, FOR T: gender identity]
+2	My [INSERT FOR LGB: sexual orientation, FOR T: gender identity] makes me different from other people, and I am comfortable with that 
+
+
+RANDOMIZE Q102a, Q102b, Q102c, Q102d
+ASK ALL:
+Q.102d	Which statement comes closer to your own views — even if neither is exactly right?    
+
+	1	It is important to maintain places like LGBT neighborhoods and gay and 
+lesbian bars 
+2	These types of places will not be important as LGBT people are more accepted into society
+We just have a few more questions that will be used for statistical purposes only.
+
+ASK IF HISPANIC (FROM SAMPLE):	
+BIRTH_HISP	Were you born in the United States, on the island of Puerto Rico, or in another country? 
+
+1	U.S. 
+2	Puerto Rico 
+3	Another country
+
+BIRTH_HISP RESPONSES ARE OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+
+ASK IF NON-HISPANIC (FROM SAMPLE):
+USBORN1A	Were you born in the United States or in another country? 
+
+1	Yes, born in U.S. (includes Puerto Rico and Other U.S. Territories)
+2	No, some other country
+
+USBORN1A RESPONSES ARE OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+USBORN	Place of Birth (Recoded version of BIRTH_HISP and USBORN1A)
+
+1	Born in U.S., Puerto Rico or Other U.S. Territories
+2	Born in some other country
+
+
+
+
+ASK ALL:
+RELIG	What is your present religion, if any? Are you… 
+
+1	Protestant (for example, Baptist, Methodist, Non-denominational, Lutheran,
+	Presbyterian, Pentecostal, Episcopalian, Reformed, Church of Christ, etc.)
+2	Roman Catholic
+3	Mormon (Church of Jesus Christ of Latter-day Saints or LDS)
+4	Orthodox (Greek, Russian, or some other orthodox church)
+5	Jewish
+6	Muslim
+7	Buddhist
+8	Hindu
+9	Atheist
+10	Agnostic 
+11	Something else, please specify (SPECIFY, one line text box)
+12	Nothing in particular
+
+RELIG RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+RELIGNEW	Recoded version of RELIG
+		What is your present religion, if any? Are you… 
+
+1	Protestant 
+2	Roman Catholic
+3	Agnostic or Atheist 
+4	Nothing in particular 
+5	Christian (VOL.) 
+6	All others, including: Mormon, Orthodox, Jewish, Muslim, Buddhist, Hindu, Unitarian or Something else
+
+
+IF SOMETHING ELSE (RELIG=11, 12, MISSING) ASK:
+CHR Do you think of yourself as a Christian or not? 
+
+1	Yes
+2	No
+
+
+IF CHRISTIAN (RELIG=1-4, OR CHR=1) ASK:
+BORN	Would you describe yourself as a "born again" or evangelical Christian, or not? 
+
+1	Yes, born again
+2	No, not born again
+
+
+
+
+ASK ALL:
+ATTEND	Aside from weddings and funerals, how often do you attend religious services...? 
+
+1	More than once a week
+2	Once a week
+3	Once or twice a month
+4	A few times a year
+5	Seldom
+6	Never
+
+
+ASK ALL:
+IMP 	How important is religion in your life? 
+
+1	Very important
+2	Somewhat important
+3	Not too important
+4	Not at all important
+
+
+ASK ALL:
+REG	Which of these statements best describes you? 
+
+1	I am absolutely certain that I am registered to vote at my current address 
+2	I am probably registered, but there is a chance my registration has lapsed 
+3	I am not registered to vote at my current address
+
+
+ASK ALL:
+INCOME	Last year, that is in 2012, what was your total family income from all sources? 
+
+1	Less than $20,000
+2	$20,000 to under $30,000
+3	$30,000 to under $40,000
+4	$40,000 to under $50,000
+5	$50,000 to under $75,000
+6	$75,000 to under $100,000
+7	$100,000 to under $150,000 
+8	$150,000 or more
+
+
+QF1_1.	Thank you for taking time to participate in this survey. If you like, please share with us any additional comments you have about the issues raised in this poll. 
+
+OPEN-END; TEXT BOX About 10 lines
+
+QF1_1 RESPONSES OMITTED TO PROTECT RESPONDENT CONFIDENTIALITY
+
+
+
+
+PPAGECAT	Respondent Age
+
+1	18-24  
+2	25-34  
+3	35-44  
+4	45-54  
+5	55-64  
+6	65-74  
+7	75+  
+99	Under 18
+
+
+PPEDUCAT	Respondent Educational Attainment
+
+-2	Not asked  
+-1	Refused  
+1	Less than high school  
+2	High school  
+3	Some college  
+4	Bachelor’s degree or higher
+
+
+PPETHM	Respondent Race/Ethnicity
+
+-2	Not asked  
+-1	Refused  
+1	White, Non-Hispanic  
+2	Black, Non-Hispanic  
+3	Other, Non-Hispanic  
+4	Hispanic  
+5	2+ Races, Non-Hispanic
+
+
+PPHHHEAD	 Is Respondent a household head?
+
+-2	Not asked  
+-1	Refused  
+0	No
+1	Yes
+
+
+PPHHSIZENEW Number of people living in respondent household
+
+	5	5 or more 
+
+
+
+
+PPT017	Any minors (people younger than 18 years) in respondent household?
+
+No
+Yes
+
+
+PPMSACAT	MSA Status
+
+-2	Not asked  
+-1	Refused  
+0	Non-Metro  
+1	Metro
+
+
+PPRENT	Ownership Status of Respondent Living Quarters
+
+-2	Not asked  
+-1	Refused 
+1	Owned or being bought by you or someone in your household  
+2	Rented for cash  
+3	Occupied without payment of cash rent
+
+
+PPNET	Household Internet Access?
+
+0	No
+1	Yes
+
+
+WEIGHT	Final Weight
+
+
+DURATION	Interview duration, in minutes
+
+
+METhODOLOGY
+
+About the Survey of LGBT Adults
+
+The data in this release are from a survey conducted April 11-29, 2013, among a sample of 1,197 self-identified LGBT adults, 18 years of age or older. The survey was conducted by the GfK Group using KnowledgePanel, its nationally representative online research panel. KnowledgePanel members are recruited through probability sampling methods and include both those with internet access and those without (KnowledgePanel provides internet access for those who do not have it and, if needed, a device to access the internet when they join the panel). A combination of random digit dialing (RDD) and address-based sampling (ABS) methodologies have been used to recruit panel members (in 2009 KnowledgePanel switched its sampling methodology for recruiting panel members from RDD to ABS). The panel comprises households with landlines and cellular phones, including those only with cell phones, and those without a phone. Both the RDD and ABS samples were provided by Marketing Systems Group (MSG). KnowledgePanel continually recruits new panel members throughout the year to offset panel attrition as people leave the panel. The survey was conducted in English.
+
+Panel members complete an annual profile survey that includes a range of demographic, attitudinal and behavioral questions. Among these are questions about sexual orientation and gender identity. At the time that this sample was drawn, a total of 3,645 panelists were classified as LGBT in response to the profile questionnaire, although some were no longer active in the panel. All active members of the GfK panel who identified as LGBT in the profile survey were eligible for inclusion in this study, but only one person per household (where more than one LGBT individual resided), randomly selected, was recruited for the study. In all, 1,924 panelists were invited to take part in the survey. All sampled members received an initial email to notify them of the survey and provide a link to the survey questionnaire. Additional follow-up reminders were sent to those who had not yet responded as needed. In order to avoid any potential response bias related to the topic of the survey, the invitations did not describe the content or target population of the study. 
+
+The Pew Research survey relies on a random sample of adults who have agreed to be a part of the GfK KnowledgePanel and complete surveys in exchange for a modest monetary reward. Interviews are conducted online, with no interviewer present. This is not an anonymous survey, but the level of trust established between respondents and the survey organization is likely to be high. Consequently, it is possible that some LGBT individuals who would be unwilling to disclose their status in other contexts are willing to identify themselves as LGBT in this panel. Considerable research on sensitive issues (such as drug use, sexual behavior and even attendance at religious services) indicates that the online mode of survey administration is likely to elicit more honest answers from respondents on a range of topics. The percentage of GfK KnowledgePanel respondents who identify as LGBT is 5.2%.
+
+Respondent Confidentiality
+
+In order to protect the identity of the survey’s respondents, certain variables were modified or removed from this public data set. All geographic variables have been removed, along with the KnowledgePanel identification numbers. Information on religious affiliation, age, family structure, household structure and place of birth has been categorized, providing less detail than in the original variables. In addition, some open-ended questions were removed, and others were edited to remove certain comments.
+
+Identifying and Interviewing LGBT Respondents
+
+Of the 1,924 members of the GfK KnowledgePanel who had identified as LGBT in their profile survey and were recruited to take the current survey; 1,422 of these completed enough of the interview to determine their eligibility for the study. All of those recruited to the study were offered a $10 incentive to complete the interview (a larger-than-normal amount for a typical KnowledgePanel survey); near the end of the field period, the incentive was increased to $20 to reduce the rate of non-response. All respondents who completed the screening questions (below) were given the incentive, regardless of whether they were determined to be eligible for the study or not.
+
+The survey opened with general political questions and other topics unrelated to LGBT identity and experiences. Before the survey shifted to questions of particular relevance to LGBT individuals, respondents were asked the following questions about their sexual orientation and gender identity in order to reconfirm their eligibility for the survey:
+
+	Do you consider yourself to be …
+
+1	Heterosexual or straight
+2	Gay
+3	Lesbian
+4	Bisexual
+
+	Do you consider yourself to be transgender?
+
+1	Yes
+2	No
+
+IF TRANSGENDER
+	Are you…
+
+1	Transgender, male to female
+2	Transgender, female to male
+3	Transgender, gender non-conforming
+4	No, not transgender
+
+Those whose answers indicated that they were not LGBT were asked the following question:
+
+In an earlier survey, you identified as [gay/lesbian/bisexual (and) transgender]. Do you still consider yourself to be [gay/lesbian/bisexual (and) transgender], or not?
+
+Overall, the vast majority of gay men (99%) and lesbian women (98%) reconfirmed as LGBT in the screening questions, though a few indicated that they belonged to a different category in the current survey than in their profile. Similarly, 85% of bisexuals reconfirmed as LGBT, including 78% who said they were still bisexual (2% identified as lesbian, 3% as gay and 2% as transgender). But most respondents who had indicated that they were transgender in the profile survey failed to reconfirm in any LGBT category. Among all those contacted for the Pew Research survey who identified as transgender in the profile survey (N=181), 23% reconfirmed as transgender in the current survey and an additional 11% identified as lesbian, gay or bisexual. 
+
+Respondents who did not reconfirm as LGBT (15%) were thanked for their time and told that the interview was over. In addition, five respondents who appeared qualified for the survey on the basis of these screening questions subsequently indicated during the interview that they were not LGBT; they, too, are excluded from the survey. 
+
+Twenty other individuals appeared qualified for the survey but broke off and did not complete the questionnaire, yielding a break-off rate of 1.1%. The final qualified sample size is 1,197. In all, 73% of those invited to take the survey screened in as qualified and completed the interview, screened out as not qualified, or indicated in their answers to other questions that they were not qualified. The cumulative response rate (CUMRR1) based on the household recruitment rate for the panel, the household profile completion rate, and the cooperation rate for this study is 7.4%. Including the average panel attrition rate in the calculation (CUMRR2) produces a response rate of 2.6%.  
+
+Respondents who indicated that they are both transgender and either gay, lesbian or bisexual were asked which term (e.g., transgender or gay) they would prefer that the survey use in referring to them in the rest of the survey. This term was then automatically inserted at the appropriate places in subsequent questions.
+
+Questionnaire Development
+
+The questionnaire was developed by the Pew Research Center. The design of the questionnaire was informed by the advice and counsel of two external advisers on the project: Gary J. Gates of the Williams Institute at UCLA and M.V. Lee Badgett of the University of Massachusetts, Amherst. In addition, the development of the questionnaire was informed by a focus group discussion of LGBT adults in the Washington, DC, area that met on March 26, 2013, at the offices of the Pew Research Center. The online questionnaire also benefited from comments and advice by GfK staff. As a further check on the questionnaire, the survey was administered as a slow launch, i.e., with a small group of panelists at the beginning of the field period. These respondents were also asked an additional open-end question to solicit feedback on any problems with clarity or other issues in the questionnaire. The Pew Research Center had final authority and responsibility for the design of the questionnaire and retains sole responsibility for the analysis and interpretation of survey findings found in the report. The median length of the questionnaire was 19 minutes.
+
+Survey Weighting
+
+The final qualified sample was weighted in several steps. In the first step a base weight was calculated for the entire KnowledgePanel that accounts for panelists’ different selection probabilities at the time of their initial recruitment.  Next, a post-stratification weight was constructed for all members of the KnowledgePanel. This weight was designed to produce a nationally representative sample of the U.S. adult population, and used an iterative technique that matches gender, age, race/ethnicity, education, region and metropolitan area to parameters from the April 2013 Census Bureau's Current Population Survey (CPS). In addition, the sample was weighted to match household income and homeownership status to a parameter from the March 2012 CPS survey and to match current patterns of internet access from the July 2011 CPS survey. This weight was multiplied by the base weight that corrects for differences in the probability of selection of various segments of the sample. 
+
+Because the final sample is narrowed to LGBT members of the panel, an additional weighting step was taken to correct for any potential biases introduced at this stage. This step weighted the LGBT sample selected for the survey to match the characteristics of the full sample of 3,645 members of the panel who are identified as LGBT, with an adjustment to correct for the different rates by which lesbians, gays, bisexuals and transgender individuals reconfirmed their eligibility for the study when interviewed. The sample was weighted using an iterative technique that matches gender, age, race/ethnicity, education, region, metropolitan area and household income among LGBT individuals to targets derived from the weighted sample of all LGBT individuals in the panel. 
+
+An additional adjustment was made to align the Hispanic composition of the sample to a target based on a weighted average of the KnowledgePanel (N=3,645 LGBT individuals), the 2008-2012 General Social Surveys (LGBT N=188) and a telephone survey of 2,669 LGBT respondents from RDD telephone surveys conducted June-August 2012 by the Gallup Organization. The KnowledgePanel survey estimated the Hispanic share of the LGBT population at 22.5%, compared with 14.0% in the Gallup sample and 15.6% in the General Social Survey. The weighted average of the Hispanic share of LGBT respondents in these three surveys was computed by using the effective sample sizes of each survey to determine its relative contribution to the average.
+
+Sampling errors and statistical tests of significance take into account the effect of weighting at each of these stages. The margin of sampling error at the 95% confidence level is plus or minus 4.1 percentage points for results based on all LGBT respondents (N=1,197). Sample sizes and margins of error for key subgroups of the sample are shown below. There were too few confirmed transgender respondents to tabulate separately (N=43). Sample sizes and sampling errors for other subgroups are available upon request.
+
+
+
+
+
+In addition to sampling error, one should bear in mind that question wording and practical difficulties in conducting surveys can introduce error or bias into the findings of opinion polls. 
+
